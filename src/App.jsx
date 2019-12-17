@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import styles from './app.module.css'
+import styles from './app.module.scss'
 class App extends Component {
   state = { 
     title: 'חיפוש רכבי אספנות'
