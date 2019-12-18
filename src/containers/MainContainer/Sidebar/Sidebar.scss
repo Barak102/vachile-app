@@ -1,0 +1,6 @@
+@import "./../../../shared/shared-mixins.scss";
+.sidebar-wrapper {
+  .sidebar-title {
+    @include flex();
+  }
+}

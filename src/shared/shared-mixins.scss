@@ -1,0 +1,10 @@
+@mixin flex($alignItems: center, $justiftContent: center) {
+  display: flex;
+  align-items: $alignItems;
+  justify-content: $justiftContent;
+}
+
+@mixin dimention($width, $height: $width) {
+  width: $width;
+  height: $height;
+}

@@ -1,0 +1,20 @@
+@import "./../../shared/shared-mixins.scss";
+
+.wrapper {
+  width: 100%;
+  @include flex(start, center);
+  .container {
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    .title {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .main-content {
+    }
+  }
+  .sidebar {
+    @include dimention(30%, 450px);
+    display: inline-block;
+  }
+}
