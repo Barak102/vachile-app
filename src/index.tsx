@@ -4,7 +4,6 @@ import "./index.scss";
 import App from "./App/App";
 import * as serviceWorker from "./serviceWorker";
 
-//ReactDOM.render(<Navbar />, document.getElementById("vachileNavbar"));
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change

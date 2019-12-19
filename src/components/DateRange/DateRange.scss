@@ -1,0 +1,24 @@
+@import "./../../shared/shared-mixins.scss";
+.dateRangeWrapper {
+  width: 100%;
+  padding-right: 20px;
+  .title {
+    font-size: 20px;
+  }
+  .fields {
+    font-size: 18px;
+    padding-top: 10px;
+    .field-item {
+      @include flex(center, flex-start);
+      .title {
+        width: fit-content;
+      }
+      .field {
+        @include dimention(100px, 30px);
+        padding-right: 5px;
+        direction: rtl;
+        margin-right: 10px;
+      }
+    }
+  }
+}

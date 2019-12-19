@@ -3,4 +3,7 @@
   .sidebar-title {
     @include flex();
   }
+  .dateRange {
+    @include flex();
+  }
 }

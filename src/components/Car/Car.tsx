@@ -1,14 +1,16 @@
+// @flow
+
 import React, { Component } from "react";
 import "./Car.scss";
+import { ICarProps } from "./ICarProps";
 
-// @flow
-export default class Car extends Component {
+export default class Car extends Component<ICarProps> {
   render() {
     const { car } = this.props;
     return (
       <div className="car-item">
         <div className="img">
-          <img src={car.image} className="img-dim" />
+          <img src={car.image} className="img-dim" alt={car.manufacturer} />
         </div>
         <div className="details">
           <div className="detail">

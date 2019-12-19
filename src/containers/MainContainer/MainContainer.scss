@@ -2,7 +2,7 @@
 
 .wrapper {
   width: 100%;
-  @include flex(start, center);
+  @include flex(flex-start, center);
   .container {
     width: 70%;
     height: 100%;
