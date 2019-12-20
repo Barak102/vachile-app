@@ -31,6 +31,21 @@ export class CarData {
         to: 1966
       },
       image: "assets/fiat500cabriolet.jpg"
+    },
+        {
+      id: 3,
+      manufacturer: "Subaru",
+      model: "Leone",
+      type: "Wagon",
+      year: 1990,
+      color: "White",
+      gear: "Auto",
+      engineVolume: 1600,
+      marketingYears: {
+        from: 1985,
+        to: 1993
+      },
+      image: "assets/SubaruLeoneWagon.jpg"
     }
   ];
 
