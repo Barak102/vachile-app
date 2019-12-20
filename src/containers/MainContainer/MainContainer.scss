@@ -3,6 +3,7 @@
 .wrapper {
   width: 100%;
   @include flex(flex-start, center);
+  background-color: #f7f7f7;
   .container {
     width: 70%;
     height: 100%;

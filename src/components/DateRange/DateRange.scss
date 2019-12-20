@@ -2,8 +2,10 @@
 .dateRangeWrapper {
   width: 100%;
   padding-right: 20px;
+  padding-top: 10px;
   .title {
     font-size: 20px;
+    text-decoration: underline;
   }
   .fields {
     font-size: 18px;
@@ -12,6 +14,7 @@
       @include flex(center, flex-start);
       .title {
         width: fit-content;
+        text-decoration: none;
       }
       .field {
         @include dimention(100px, 30px);

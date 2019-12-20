@@ -1,9 +1,12 @@
 .navbar-wrapper {
   background-color: #c0c0c0;
+  height: 60px;
   ul {
     .inline-item {
       display: inline-block;
       padding: 10px;
+      font-size: 22px;
+      font-family: 'Times New Roman', Times, serif;
     }
   }
 }

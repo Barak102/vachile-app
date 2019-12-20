@@ -28,6 +28,14 @@ class Sidebar extends Component {
             maxTitle="עד שנה"
             YearChanged={this.rangeYearChangedHandler}
           />
+                    <DateRange
+            title="שנות ייצור"
+            minimumYear={1900}
+            maximumYear={2019}
+            minTitle="משנה"
+            maxTitle="עד שנה"
+            YearChanged={this.rangeYearChangedHandler}
+          />
         </div>
       </div>
     );
