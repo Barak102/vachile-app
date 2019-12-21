@@ -1,4 +1,3 @@
-// @Flow
 import React, { Component } from "react";
 import "./Sidebar.scss";
 import DateRange from "src/components/DateRange/DateRange";

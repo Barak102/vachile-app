@@ -7,6 +7,7 @@ import { IMainContainerState } from "src/containers/MainContainer/IMainContainer
 import { IMainContainerProps } from "src/containers/MainContainer/IMainContainerProps";
 import { CarData } from "src/data/carData.d";
 import Car from "src/components/Car/Car";
+import { ICar } from "src/types/ICar";
 export default class MainContainer extends Component<
   IMainContainerProps,
   IMainContainerState
@@ -41,6 +42,8 @@ export default class MainContainer extends Component<
   };
 
   componentDidMount() {
-    this.setState({ cars: CarData.getCars() });
+    CarData.getCars((data: ICar[]) => {
+      this.setState({ cars: data });
+    });
   }
 }
