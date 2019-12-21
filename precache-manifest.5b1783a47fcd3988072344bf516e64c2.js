@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed07e82e7882b785c6524de9da128c85",
+    "revision": "2ca0b644e41d74b2b9aa3c3656d6d9c5",
     "url": "/vachile-app/index.html"
   },
   {
-    "revision": "b8ce7574dc5b46e7fa7b",
+    "revision": "36e6a7b3a5628408db81",
     "url": "/vachile-app/static/css/main.56433497.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vachile-app/static/js/2.ff94f62e.chunk.js.LICENSE"
   },
   {
-    "revision": "b8ce7574dc5b46e7fa7b",
-    "url": "/vachile-app/static/js/main.6ce4d7a6.chunk.js"
+    "revision": "36e6a7b3a5628408db81",
+    "url": "/vachile-app/static/js/main.5eb39c7f.chunk.js"
   },
   {
     "revision": "c90443e3e0d81971fbad",
