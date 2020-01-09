@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/vachile-app/static/css/main.56433497.chunk.css",
-    "main.js": "/vachile-app/static/js/main.5eb39c7f.chunk.js",
-    "main.js.map": "/vachile-app/static/js/main.5eb39c7f.chunk.js.map",
+    "main.css": "/vachile-app/static/css/main.6e842984.chunk.css",
+    "main.js": "/vachile-app/static/js/main.e75dea5a.chunk.js",
+    "main.js.map": "/vachile-app/static/js/main.e75dea5a.chunk.js.map",
     "runtime-main.js": "/vachile-app/static/js/runtime-main.78ea33bd.js",
     "runtime-main.js.map": "/vachile-app/static/js/runtime-main.78ea33bd.js.map",
     "static/js/2.ff94f62e.chunk.js": "/vachile-app/static/js/2.ff94f62e.chunk.js",
     "static/js/2.ff94f62e.chunk.js.map": "/vachile-app/static/js/2.ff94f62e.chunk.js.map",
     "index.html": "/vachile-app/index.html",
-    "precache-manifest.5b1783a47fcd3988072344bf516e64c2.js": "/vachile-app/precache-manifest.5b1783a47fcd3988072344bf516e64c2.js",
+    "precache-manifest.8d74f07dc9ed3c528a5e4219d121c2fa.js": "/vachile-app/precache-manifest.8d74f07dc9ed3c528a5e4219d121c2fa.js",
     "service-worker.js": "/vachile-app/service-worker.js",
-    "static/css/main.56433497.chunk.css.map": "/vachile-app/static/css/main.56433497.chunk.css.map",
+    "static/css/main.6e842984.chunk.css.map": "/vachile-app/static/css/main.6e842984.chunk.css.map",
     "static/js/2.ff94f62e.chunk.js.LICENSE": "/vachile-app/static/js/2.ff94f62e.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.78ea33bd.js",
     "static/js/2.ff94f62e.chunk.js",
-    "static/css/main.56433497.chunk.css",
-    "static/js/main.5eb39c7f.chunk.js"
+    "static/css/main.6e842984.chunk.css",
+    "static/js/main.e75dea5a.chunk.js"
   ]
 }
