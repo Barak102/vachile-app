@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Sidebar.scss";
 import DateRange from "src/components/DateRange/DateRange";
+import TextInput from "src/components/TextInput/TextInput";
 class Sidebar extends Component {
   state = {};
 
@@ -18,7 +19,8 @@ class Sidebar extends Component {
         <div className="sidebar-title">
           <h2>אפשרויות חיפוש</h2>
         </div>
-        <div className="dateRange">
+        <TextInput name="manufacturer" placeHolder="יצרן" title="יצרן"/>
+        <TextInput name="type" placeHolder="סוג" title="סוג"/>
           <DateRange
             title="שנות שיווק"
             minimumYear={1900}
@@ -36,7 +38,6 @@ class Sidebar extends Component {
             YearChanged={this.rangeYearChangedHandler}
           />
         </div>
-      </div>
     );
   }
 }
