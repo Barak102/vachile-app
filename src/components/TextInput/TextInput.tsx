@@ -7,9 +7,6 @@ export default class TextInput extends Component<ITextInputProps, ITextInputStat
 
   constructor(props: ITextInputProps) {
     super(props);
-    this.state = {
-      value: ''
-    };
   }
 
   render() {
@@ -18,11 +15,11 @@ export default class TextInput extends Component<ITextInputProps, ITextInputStat
         <div className="field">
           <div className="title">{this.props.title}</div>
           <div className="field-item">
-            <input type="text" name={this.props.name} placeholder={this.props.placeHolder} value={this.state.value}
+            <input type="text" name={this.props.name} placeholder={this.props.placeHolder} value={this.props.value ? this.props.value : ''}
               onChange={(e: any) =>
-                this.setState({ value: e.target.value.toString() })
+                this.props.valueChanged(this.props.name, e.target.value.toString())
               } />
-            {this.state.value}
+            {this.props.value}
           </div>
         </div>
       </div>
